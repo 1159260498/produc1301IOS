@@ -15,6 +15,7 @@
 		EF5432EC1B0C673F005F434B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5432EB1B0C673F005F434B /* Images.xcassets */; };
 		EF5432EF1B0C673F005F434B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF5432ED1B0C673F005F434B /* LaunchScreen.xib */; };
 		EF5432FB1B0C6740005F434B /* TextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5432FA1B0C6740005F434B /* TextDemoTests.m */; };
+		EF5433061B0C6991005F434B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5433051B0C6991005F434B /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		EF5432F41B0C6740005F434B /* TextDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5432F91B0C6740005F434B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF5432FA1B0C6740005F434B /* TextDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextDemoTests.m; sourceTree = "<group>"; };
+		EF5433041B0C6991005F434B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EF5433051B0C6991005F434B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				EF5432E01B0C673F005F434B /* AppDelegate.m */,
 				EF5432E51B0C673F005F434B /* ViewController.h */,
 				EF5432E61B0C673F005F434B /* ViewController.m */,
+				EF5433041B0C6991005F434B /* SecondViewController.h */,
+				EF5433051B0C6991005F434B /* SecondViewController.m */,
 				EF5432E81B0C673F005F434B /* Main.storyboard */,
 				EF5432EB1B0C673F005F434B /* Images.xcassets */,
 				EF5432ED1B0C673F005F434B /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5433061B0C6991005F434B /* SecondViewController.m in Sources */,
 				EF5432E11B0C673F005F434B /* AppDelegate.m in Sources */,
 				EF5432DE1B0C673F005F434B /* main.m in Sources */,
 				EF5432E71B0C673F005F434B /* ViewController.m in Sources */,
